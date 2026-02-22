@@ -11,5 +11,5 @@ redis_client = redis.from_url(
 )
 
 def get_redis():
-    """Get Redis client"""
+    """Gets Redis client"""
     return redis_client
