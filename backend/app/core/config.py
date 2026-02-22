@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     REDIS_URL: str
     
     # AI Services
-    OPENAI_API_KEY: str
+    OPENAI_API_KEY: str #no need
     PINECONE_API_KEY: str
     PINECONE_ENVIRONMENT: str = "gcp-starter"
     PINECONE_INDEX_NAME: str = "nexus-ai"
