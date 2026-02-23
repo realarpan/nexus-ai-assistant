@@ -21,7 +21,7 @@ api.interceptors.request.use(
   (error) => Promise.reject(error)
 )
 
-// Response interceptor for error handling
+// Resp. interceptor for error handling
 api.interceptors.response.use(
   (response) => response,
   async (error) => {
