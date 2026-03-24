@@ -77,7 +77,7 @@ export const useStore = create<AppState>()(persist(
     },
   }),
   {
-    name: 'nexus-storage',
+    name: 'nexus-ai-storage',
     partialize: (state) => ({ user: state.user, sidebarOpen: state.sidebarOpen }),
   }
 ))
