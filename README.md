@@ -39,14 +39,14 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Frontend Layer                        │
-│  Next.js 14 + TypeScript + Tailwind CSS + Shadcn/ui    │
+│                    Frontend Layer                       │
+│  Next.js 14 + TypeScript + Tailwind CSS + Shadcn/ui     │
 └────────────────────┬────────────────────────────────────┘
                      │
                      │ WebSocket + REST API
                      │
 ┌────────────────────▼────────────────────────────────────┐
-│                   API Gateway (FastAPI)                  │
+│                   API Gateway (FastAPI)                 │
 │  ├─ Authentication & Authorization                      │
 │  ├─ Rate Limiting & Caching                             │
 │  └─ Request Routing                                     │
